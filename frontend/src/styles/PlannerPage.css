@@ -1,0 +1,24 @@
+.planner-page {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+
+.planner-main {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+@media (max-width: 1024px) {
+  .planner-main {
+    grid-template-columns: 1fr;
+  }
+}
+
+.form-section {
+  position: sticky;
+  top: 2rem;
+}
